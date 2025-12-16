@@ -12,15 +12,15 @@
       background: black;
       margin-left: 20px;
       margin-right: 20px;
-      width: 1440px;
+      width: 1200px;
     }
    
     #site-title {
       font-family: "Hanalei Fill";
       font-size: 125px;
       text-align: center;
-      color: white;
-      background: #676667;
+      color: black;
+      background: orange;
       margin: 0px;
     }
  
@@ -36,11 +36,11 @@
       margin: 0px;
       padding: 0px;
       overflow: hidden;
-      background: hsl(300, 0%, 53%);
+      background: orange;
     }
     
     ul li {      
-      float: left
+      float: left;
     }
     
     ul li a {
@@ -63,12 +63,14 @@
     #heading {
       display: block;
       position: sticky;
+      align-content: top;
       top: 0;
       padding: 0px;
       
       }
     
     #introduction {
+      position: relative;
       background: #a6a6a6;
       padding: 10px;
     }
@@ -77,20 +79,26 @@
       font-family: "Hanalei Fill";
       font-size: 50px;
       position: absolute;
-      top: 140%;
-      left: 500px;
-      
+      top: 10%;
+      left: 350px;
+      padding: 0px;
+      margin: 0px; 
+    }
+    
+    #primer {
+      font-size: 27px;
+      text-align: center;
     }
     
     #story {
-      width: 1440px;
+      width: 1200px;
       height:960px;
       padding: 0px;
       
     }
     
     #concepts {
-      width: 1440px;
+      width: 1200px;
       height:960px;
       background: green;
       color: white;
@@ -98,19 +106,22 @@
     }
     
     #author {
-      width: 1440px;
+      width: 1200px;
       height:360px;
       padding: 10px;
     }
     
     .textblock {
-      padding: 10px;
+      font-size: 25px;
+      margin: 20px;
       width: 600px;  
     }
     
     h1 {
+      margin: 20px;
       font-family: "Hanalei Fill";
       font-weight: 300;
+      font-size: 40px;
     }
   
   footer {
@@ -123,6 +134,17 @@
 
   <body>
     
+    
+    <div class="content">
+    
+    
+    <div id="introduction">
+      <img src="albser.png" alt="an image of an allosaur carrying a baby sauropodlet in its mouth" width="1190px" position="50px">
+      <p id="tagline">These lands are savage.</p>
+      <p id="primer">Somewhere beyond the reaches of time and space, lie an untamed frontier ruled by grand beasts beyond humanity's most ancient imagination; Dinosaurs. Where titanic sauropods walk alongside fierce theropods. Where savagery is the code and the wilderness is unbroken.</p>
+      <h1 style="text-align:center">Welcome to the</h1>
+    </div>
+    
     <div id="heading">
         <h1 id="site-title">Realm of Reptiles</h1>   
       <nav>
@@ -134,27 +156,19 @@
         </ul>
     </nav>
     </div>
-    
-    <div class="content">
-    
-    
-    <div id="introduction">
-      <img src="albser.png" alt="an image of an allosaur carrying a baby sauropodlet in its mouth" width="1400px" position="50px">
-      <p id="tagline">These lands are savage.</p>
-      <h1>Welcome to the savage lands</h1>
-      <p>The realm of reptiles is an untamed frontier ruled by grand beasts beyond humanity's most ancient imagination; Dinosaurs. Formerly known as Terrible Lizards, Realm of Reptiles is a comic series written by Adithya "Aadhira" Janish and produced by Studiocomix Press as part of the Toonix program.</p>
-    </div>
-    
     <div id="story">
       <h1>The Tale</h1>
-      <p class="textblock">Our tale starts in the ancient floodplains, before there were bison to wander the great grasslands and before there were even grass to make the plains. In this fern dominated wetland, titans walk</p>
-      <img src=".png" alt="description of image" width="1440px">
+      <p class="textblock">Our tale starts in the ancient floodplains, before there were bison to wander the great grasslands and before there were even grass to make the plains. In this fern dominated wetland, titans create craters with their footfalls, and fearsome theropods greater than </p>
+      <img src="Brontostomp.png" alt="description of image" width="1200px">
     </div>
   
        
     <div id="concepts">
-          <p>insert concepts</p> 
-     
+      <h1>Concept Art</h1>
+          <p class="textblock">Exclusive behind the scenes looks at terrible lizards concept art</p> 
+      <img src="Brontoface.jpg" alt="description of image" width="600px">
+      <img src="Brontoconfront.jpg" alt="description of image" width="600px">
+      <img src="Torvo.jpg" alt="description of image" width="600px">
     
     </div>
         
