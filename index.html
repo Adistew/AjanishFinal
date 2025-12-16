@@ -98,11 +98,13 @@
     }
     
     #concepts {
+      display: grid;
+      grid-template-columns: 50% 50%;
       width: 1200px;
-      height:960px;
+      height:2600px;
       background: green;
       color: white;
-      padding: 0px;
+      margin: 
     }
     
     #author {
@@ -114,7 +116,16 @@
     .textblock {
       font-size: 25px;
       margin: 20px;
-      width: 600px;  
+      width: 600px;
+
+    }
+    
+    .art {
+      background: #a6a6a6;
+      align-content: center;
+      width: 400px;
+      height: 650px;
+      margin: 20px;
     }
     
     h1 {
@@ -165,15 +176,26 @@
        
     <div id="concepts">
       <h1>Concept Art</h1>
-          <p class="textblock">Exclusive behind the scenes looks at terrible lizards concept art</p> 
-      <img src="Brontoface.jpg" alt="description of image" width="600px">
-      <img src="Brontoconfront.jpg" alt="description of image" width="600px">
-      <img src="Torvo.jpg" alt="description of image" width="600px">
+          <p class="textblock">Exclusive behind the scenes looks at Realm of Reptiles concept art</p> 
+      <div class="art">
+      <img src="Brontoface.jpg" alt="description of image" width="400px">
+        <p style="width:400px;text-align:center;">The Brontosaurus was a difficult dinosaur to figure out. It had to have a balance between expressiveness and the passive stoicness associated with reptiles.</p>
+      </div>
+      
+      <div class="art">
+        <img src="Brontoconfront.jpg" alt="description of image" width="400px">
+        <p style="width:400px;text-align:center;">The Brontosaurus was a difficult dinosaur to figure out. It had to have a balance between expressiveness and the passive stoicness associated with reptiles.</p>
+      </div>
+      
+      <div class="art">
+      <img src="Torvo.jpg" alt="description of image" width="400px">
+        <p style="width:400px;text-align:center;">The Brontosaurus was a difficult dinosaur to figure out. It had to have a balance between expressiveness and the passive stoicness associated with reptiles.</p>
+      </div>
     
     </div>
         
     <div id="author">
-          <p>insert author</p>    
+      <img src="IMG_1113.jpg" alt="description of image" width="250px">  
     </div>
     
     </div>
