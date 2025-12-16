@@ -4,11 +4,11 @@
 <title>ajanish final website title</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Rubik+Distressed&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=IM+Fell+Great+Primer+SC&family=Rubik+Distressed&display=swap" rel="stylesheet">
   <style>
 
     body {
+      font-family: "IM Fell Great Primer SC";
       background: black;
       margin-left: 20px;
       margin-right: 20px;
@@ -25,7 +25,7 @@
     }
  
     nav { 
-      font-family: "Raleway", sans-serif; 
+      font-family: "Rubik Distressed", sans-serif; 
       font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;  
@@ -36,7 +36,7 @@
       margin: 0px;
       padding: 0px;
       overflow: hidden;
-      background: green;
+      background: hsl(300, 0%, 53%);
     }
     
     ul li {      
@@ -69,8 +69,6 @@
       }
     
     #introduction {
-      position: relative;
-      align-content: center;
       background: #a6a6a6;
       padding: 10px;
     }
@@ -79,7 +77,7 @@
       font-family: "Hanalei Fill";
       font-size: 50px;
       position: absolute;
-      top: 78%;
+      top: 140%;
       left: 500px;
       
     }
@@ -87,7 +85,7 @@
     #story {
       width: 1440px;
       height:960px;
-      padding: 10px;
+      padding: 0px;
       
     }
     
@@ -96,13 +94,23 @@
       height:960px;
       background: green;
       color: white;
-      padding: 10px;
+      padding: 0px;
     }
     
     #author {
       width: 1440px;
       height:360px;
       padding: 10px;
+    }
+    
+    .textblock {
+      padding: 10px;
+      width: 600px;  
+    }
+    
+    h1 {
+      font-family: "Hanalei Fill";
+      font-weight: 300;
     }
   
   footer {
@@ -119,10 +127,10 @@
         <h1 id="site-title">Realm of Reptiles</h1>   
       <nav>
         <ul>
-          <li><a href="#introduction">Home</a></li>
+          <li><a href="#tagline">Introduction</a></li>
           <li><a href="#story">The Story</a></li>
           <li><a href="#concepts">Concept Art</a></li>
-          <li><a href="#author">Contact</a></li>   
+          <li><a href="#author">About the Author</a></li>   
         </ul>
     </nav>
     </div>
@@ -139,7 +147,8 @@
     
     <div id="story">
       <h1>The Tale</h1>
-      <p>Our tale starts in the ancient floodplains, before there were bison to wander the great grasslands and before there were even grass to make the plains. In this fern dominated wetland, titans walk</p>
+      <p class="textblock">Our tale starts in the ancient floodplains, before there were bison to wander the great grasslands and before there were even grass to make the plains. In this fern dominated wetland, titans walk</p>
+      <img src="Brontostomp.png" alt="description of image" width="1440px">
     </div>
   
        
